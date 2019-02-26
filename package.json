@@ -1,0 +1,27 @@
+{
+  "name": "jenkins-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaeJang/jenkins-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaeJang/jenkins-node/issues"
+  },
+  "homepage": "https://github.com/JaeJang/jenkins-node#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "supertest": "^3.4.2"
+  }
+}
