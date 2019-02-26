@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh root@ip-172-31-19-96 <<EOF
+ cd ~/jenkins-node
+ git pull
+ npm install — production
+ #pm2 restart all
+ exit
+EOF
