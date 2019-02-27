@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh root@ip-172-31-19-96 <<EOF
+ssh ubuntu@ip-172-31-30-69 <<EOF
  cd ~/jenkins-node
  git pull
  npm install — production
