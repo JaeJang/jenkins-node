@@ -1,5 +1,7 @@
 #!/bin/sh
+echo "before ssh"
 ssh ubuntu@18.191.155.178 <<EOF
+echo "after ssh"
  cd ~/jenkins-node
  git pull
  npm install — production
