@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh root@18.191.155.178 <<EOF
+ssh ubuntu@18.191.155.178 <<EOF
  cd ~/jenkins-node
  git pull
  npm install — production
